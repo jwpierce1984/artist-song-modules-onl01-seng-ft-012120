@@ -5,7 +5,7 @@ class Song
   extend Memorable::ClassMethods
   extend Findable::ClassMethods
   include Memorable::InstanceMethods
-  include Findable::InstanceMethods
+  include Paramble::InstanceMethods
   
 
 
