@@ -2,6 +2,8 @@ require 'pry'
 
 class Artist
   
+  extend Memorable::ClassMethods
+  
   attr_accessor :name
   attr_reader :songs
 
@@ -20,7 +22,6 @@ class Artist
     @@artists
   end
   
-  extend Memorable
 #  def self.reset_all
 #    self.all.clear
 #  end
